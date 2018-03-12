@@ -15,7 +15,7 @@ public class InnerBroker {
 
 		broker.setUseJmx(true);
 
-		broker.addConnector("tcp://localhost:61616");
+		broker.addConnector("tcp://localhost:61716");
 
 		broker.start();
 		
